@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Todo lo que te encanta de Netflix por tan solo USD6.99. Elige el plan Estándar con anuncios. Más info. Disfruta en tu TV."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./media/netflix-logoN.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arimo&family=Handlee&family=Klee+One:wght@600&family=Open+Sans:wght@500&family=Patrick+Hand&family=Prompt&family=Roboto+Mono:ital@0;1&family=Roboto:wght@300&family=Rubik&family=Ubuntu:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div>
+      <img class="fondo" src="./media/netflix-fondo.jpg" alt="fondo" />
+    </div>
+
+    <header>
+      <img class="logo" src="./media/netflix-logo.png" alt="Logo de Netflix" />
+    </header>
+
+    <main>
+      <form action="">
+        <h1>Iniciar sesión</h1>
+
+        <label for="mail">
+          <input
+            class="input"
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="Correo electrónico o número de teléfono"
+          />
+        </label>
+
+        <label for="password">
+          <input
+            class="input"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Contraseña"
+          />
+        </label>
+
+        <button class="inicioSesion">Iniciar sesión</button>
+
+        <section class="recordar recordar-section">
+          <label class="recordar" for="recuerdame">
+            <input type="checkbox" name="recuerdame" id="recuerdame" />
+            <span class="recordar">Recuérdame</span>
+          </label>
+
+          <a class="ayuda" href="#">¿Necesitas ayuda?</a>
+        </section>
+
+        <section class="suscribir">
+          <span class="texto texto-titulo">¿Todavía sin Netflix?</span
+          ><a class="texto" href="#">Suscríbete ya.</a>
+        </section>
+
+        <section class="informacion">
+          <span class="texto"
+            >Esta página utiliza Google reCAPTCHA para garantizar que no eres un
+            robot.</span
+          ><a class="texto" href="#">Más información</a>
+        </section>
+      </form>
+
+      <footer>
+        <section class="llama">
+          <h4>¿Preguntas? Llama al <a href="#">900-759-106</a></h4>
+        </section>
+
+        <nav>
+          <ul class="nav-footer">
+            <li class="lista-uno">
+              <a href="#"><span>Preguntas frecuentes</span></a>
+            </li>
+            <li class="lista-dos">
+              <a href="#"><span>Centro de ayuda</span></a>
+            </li>
+            <li class="lista-tres">
+              <a href="#"><span>Términos de uso</span></a>
+            </li>
+            <li class="lista-cuatro">
+              <a href="#"><span>Privacidad</span></a>
+            </li>
+            <li class="lista-cinco">
+              <a href="#"><span>Preferencias de cookies</span></a>
+            </li>
+            <li class="lista-seis">
+              <a href="#"><span>Información corporativa</span></a>
+            </li>
+            <li class="lista-siete">
+              <a href="#"><span>Opciones de anuncios</span></a>
+            </li>
+          </ul>
+        </nav>
+
+        <select name="seleccion" class="select">
+          <option class="Español">Español</option>
+          <option class="English">English</option>
+        </select>
+      </footer>
+    </main>
+  </body>
+</html>
